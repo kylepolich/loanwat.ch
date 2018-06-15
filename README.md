@@ -1,0 +1,3 @@
+# loanwat.ch
+
+Boilerplate website.
