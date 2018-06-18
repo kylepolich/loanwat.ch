@@ -18,7 +18,6 @@ deploy:
   bucket: www.loanwat.ch
   # Prevent Travis from deleting your built site so it can be uploaded.
   skip_cleanup: true
-  # Path to a directory containing your built site.
-  local_dir: ./
   # Set the Cache-Control header.
   cache_control: "max-age=21600"
+  acl: public_read
