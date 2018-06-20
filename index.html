@@ -37,6 +37,18 @@
         -webkit-overflow-scrolling: touch;
       }
     }
+
+    @media (max-width: 768px) {
+      #logo {
+        width: 25%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      #logo {
+        width: 40%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -44,15 +56,7 @@
     <div class="block block-inverse block-fill-height app-header" style="background-image: url('assets/img/architecture-opaque.jpg');">
       <div class="container py-4 fixed-top app-navbar">
       <nav class="navbar navbar-transparent navbar-expand-md">
-        <a class="navbar-brand mr-auto" href=""><img src="assets/img/loanwat.ch-logo-upright-white.png" style="width: 50%;"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-target="#stage"
-          data-toggle="stage"
-          data-distance="-250">
-          <span class="navbar-toggler-icon"></span>
-          </button>
+        <a class="navbar-brand mr-auto" href=""><img id="logo" src="assets/img/loanwat.ch-logo-upright-white.png"></a>
         </nav>
       </div>
       <div class="block-xs-middle pb-5">
@@ -79,15 +83,15 @@
           </div>
           <div class="col-md-6 col-sm-12 ml-auto">
             <h2>Protect your loans by monitoring public records for what matters.</h2>
-            <p class="lead mb-4">We help you secure your collateral by informing you when deeds, liens, adverse judgments, and bankruptcies affect your collateral, your borrowers, and your guarantors.</p>
+            <p class="lead mb-4">We help keep your collateral secure by informing you when deeds, liens, judgments, and bankruptcies issue that impact your collateral, borrowers, and guarantors.</p>
             <div class="row d-none d-md-flex">
               <div class="col-sm-6 mb-3">
                 <h5>Data frequency</h5>
-                <p>We update our data from county records on a daily basis. Know when your loans are at risk before it's too late.</p>
+                <p>We update our data from county records as soon as it's available. Know when your loans are at risk before it's too late.</p>
               </div>
               <div class="col-sm-6">
                 <h5>Reliability &amp; uptime</h5>
-                <p>We process our data across a massively distributed network of reliable servers to maximize uptime. </p>
+                <p>We process data using a distributed network of servers to maximize uptime.</p>
               </div>
             </div>
           </div>
@@ -100,8 +104,8 @@
         <div class="row app-align-center">
           <div class="col-md-6 order-2 order-md-1">
             <h6 class="text-muted text-uppercase">competitive pricing</h6>
-            <h2>No monthly fee &amp; no charge to you.</h2>
-            <p class="lead mb-4 text-muted">Fixed fee per loan for the life of the loan, passed on to the borrower at closing. Talk to us for pricing on existing loans.</p>
+            <h2>No monthly fees.</h2>
+            <p class="lead mb-4 text-muted">One-time fee for the life of the loan. Contact us for pricing on existing loans.</p>
 
           </div>
           <div class="col-md-5 ml-auto order-1 order-md-2">
@@ -113,13 +117,13 @@
 
     <div class="block block-inverse app-high-praise"
          style="background: url('assets/img/Picture-darkened.jpg'); filter: brightness(0.8); padding-top: 0px; padding-bottom: 0px;">
-      <div class="container text-xs-center" style="padding-bottom: 0px;">
+      <div class="container text-xs-center" style="padding-top: 100px; padding-bottom: 100px;">
         <div class="row mb-5 justify-content-center">
           <div class="col-10 col-sm-8 col-lg-6">
 
             <br />
             <h6 class="text-muted text-uppercase mb-2">Inside the machine</h6>
-            <h2 class="mb-4">Records we cover.</h2>
+            <h2 class="mb-4">Records covered.</h2>
           </div>
         </div>
 
@@ -130,13 +134,13 @@
           </div>
           <div class="col-md-6 px-4 mb-5">
 
-            <p><strong>Deeds of trust.</strong> Know if your borrower takes out a second mortgage.</p>
+            <p><strong>Deeds of trust.</strong> Know about second mortgages.</p>
           </div>
         </div>
         <div class="row app-marketing-grid">
           <div class="col-md-6 px-4 mb-5">
 
-            <p><strong>Judgments.</strong> Know about judgments against your borrower in the county of the property.</p>
+            <p><strong>Judgments.</strong> Be the first to know about judgments against the borrower or even the guarantor.</p>
           </div>
 
           <div class="col-md-6 px-4 mb-5">
@@ -152,7 +156,7 @@
           </div>
           <div class="col-md-6 px-4 mb-5">
 
-            <p><strong>Anything else.</strong> With our extensive database of public records, we can work with you to develop custom queries.</p>
+            <p><strong>Anything else.</strong> With our extensive database of public records, we can work with you to develop custom alerts.</p>
           </div>
         </div>
       </div>
@@ -166,7 +170,7 @@
               <h6 class="text-muted text-uppercase mb-2">Get in touch</h6>
               <h2 class="mb-4">Interested? Let's talk.</h2>
               <p class="mb-4 text-muted">Send an email to <a href="mailto:sales@loanwat.ch">sales@loanwat.ch</a> and we'll get back to you.</p>
-              <p class="mb-4 text-muted"><a class="btn btn-primary" href="mailto:sales@loanwatch">Send us an email</a></p>
+              <p class="mb-4 text-muted"><a class="btn btn-primary" href="mailto:sales@loanwat.ch">Send us an email</a></p>
             </div>
           </div>
       </div>
@@ -179,7 +183,7 @@
             <ul class="list-unstyled list-spaced">
               <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
               <li class="text-muted">
-                 loanwat.ch leverages our team's 20+ years of combined experience in the fields of data science, real estate transactions, and commercial litigation.
+                 loanwat.ch leverages our team's 30+ years of combined experience in the fields of real estate, data science, and commercial litigation.
               </li>
             </ul>
           </div>
