@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119562725-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119562725-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <title>Record not found | loanwat.ch</title>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+  <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+  <link href="assets/css/application-startup.css" rel="stylesheet">
+  <style>
+    /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+    /* this chunk of css is not part of the toolkit :) */
+    /* …curses ios, etc… */
+    @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+      body {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+      }
+      #stage {
+        height: 1px;
+        overflow: auto;
+        min-height: 100vh;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #logo {
+        width: 25%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      #logo {
+        width: 40%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div class="block block-fill-height app-header">
+      <div class="container py-4 fixed-top app-navbar">
+        <nav class="navbar navbar-transparent navbar-expand-md">
+          <a class="navbar-brand mr-auto" href=""><img id="logo" src="assets/img/loanwat.ch-logo-upright.png"></a>
+        </nav>
+      </div>
+      <div class="block-xs-middle pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2 col-lg-2"></div>
+            <div class="col-sm-8 col-lg-8" style="text-align: center;">
+              <h1 class="block-titleData frequency">Record not found</h1>
+              <p class="lead mb-4">The record you requested was not found.</p>
+              <a class="btn btn-primary btn-lg" href="index.html">Go to our homepage</a>
+            </div>
+            <div class="col-sm-2 col-lg-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/toolkit.js"></script>
+  <script src="assets/js/application.js"></script>
+  <script>
+    // execute/clear BS loaders for docs
+    $(function(){while(window.BS&&window.BS.loader&&window.BS.loader.length){(window.BS.loader.pop())()}})
+  </script>
+</body>
+</html>
